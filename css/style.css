@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+html,body {
+    overflow-x: hidden;
+}
+
+.nav-item .nav-link.active {
+    background-color: rgba(128, 128, 128, 0.459);
+}
+.nav-item .nav-link:hover {
+    background-color: rgba(245, 245, 245, 0.315);
+    color: black;
+}
+.nav-item .nav-link {
+    padding-left: 20px;
+}
+.content p,
+.welcome-container {
+    text-align: center;
+    line-height: 500px;
+    font-family: Montserrat;
+    animation: 15s 1  ease-in-out spin;
+}
+.content {
+    border-top: solid white 2px;
+}
+@keyframes spin{
+    0%  {
+        transform: skew(0deg);
+    }
+    100% {
+        transform: skew(360deg);
+    }   
+}
+.test {
+    background-color: rgba(121, 120, 120, 0.322);
+}
