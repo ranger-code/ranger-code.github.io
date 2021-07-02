@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: ranger-code.ga
+Token: 8c0cc6ce1c1e30b4c46d2832fe129af34de1c22d02208a89ef82a1a1e039a201
