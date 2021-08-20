@@ -2,19 +2,22 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bookshelf | Home</title>
-    <link rel="stylesheet" href="./css/bootstrap.css">
-    <link rel="stylesheet" href="./css/style.css">
-    <script src="./components/header.js"></script>
+    <title>Bookshelf || Home</title>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <script src="./assets/js/components.js"></script>
     <link rel="manifest" href="./manifest.json">
-    <link rel="icon" href="./assets/images/logo.png">
 </head>
 <body>
-    <navbar-component-home></navbar-component-home>
-    <content-component-home></content-component-home>
-    <footer-component></footer-component>
-    <script src="./js/bootstrap.js"></script>
-    <script src="./js/script.js"></script>
+    <navbar-component></navbar-component>
+    <div class="para" id="home">
+        <p style="display: flex;align-items: center;justify-content: center;position: relative;top: 292.5px;">Welcome back Bookshelfers</p>
+    </div>
+    <footer-home></footer-home>
+    <script src="./service-worker.js"></script>
+    <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

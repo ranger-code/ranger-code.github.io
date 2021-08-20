@@ -2,18 +2,34 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bookshelf | Contact</title>
-    <link rel="stylesheet" href="../../css/bootstrap.css">
-    <link rel="stylesheet" href="../../css/style.css">
-    <script src="../../components/header.js"></script>
-    <link rel="manifest" href="./mainfest.json">
-    <link rel="icon" href="./assets/images/logo.png">
+    <title>Bookshelf || Contact</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="../js/components.js"></script>
+    <link rel="manifest" href="../../manifest.json">
 </head>
 <body>
-    <navbar-component></navbar-component>
-    <content-component-contact></content-component-contact>
-    <footer-component-other></footer-component-other>
-    <script src="../../js/bootstrap.js"></script>
+    <navbar-component-contact></navbar-component-contact>
+    <div class="contact-container" style="background-color: rgba(121, 120, 120, 0.322);height:588.5px;">
+        <br>
+            <form action="https://formsubmit.co/varadpvinod09@gmail.com" method="POST"  style="margin-left:10px;">
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <br>
+                <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" style="width:600px;" placeholder="Enter Email Address" required>
+                <input type="hidden" name="_next" value="https://ranger-code.ga/assets/pages/thanks.html">
+                <input type="hidden" name="_subject" value="New Submission">
+                <input type="hidden" name="_captcha" value="false">
+                <label for="exampleInputComment1" class="form">Message</label>
+                <br>
+                <textarea type="text" name="message" class="form-control" placeholder="Leave a Message here" id="floatingTextarea2" style="width:600px;height: 100px" required></textarea>
+                <br>
+            <button type="submit" class="btn btn-dark">Send Email</button>
+        </form>
+    <div>
+        <br><br><br><br><br><br><br><br><br><br><br><br>
+        <footer-con></footer-con>
+    <script src="../js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

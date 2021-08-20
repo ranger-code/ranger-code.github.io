@@ -2,19 +2,71 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bookshelf | Stories</title>
-    <link rel="stylesheet" href="../../css/bootstrap.css">
-    <link rel="stylesheet" href="../../css/style.css">
-    <script src="../../components/header.js"></script>
-    <link rel="manifest" href="./mainfest.json">
-    <link rel="icon" href="./assets/images/logo.png">
+    <title>Bookshelf || Stories</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="../js/components.js"></script>
+    <link rel="manifest" href="../../manifest.json">
 </head>
 <body>
-    <navbar-component-stories></navbar-component-stories>
-    <content-component-stories></content-component-stories>
-    <footer-component-other></footer-component-other>
-    <script src="../../js/bootstrap.js"></script>
-    <script src="../../js/dropdown.js"></script>
+    <navbar-component-story></navbar-component-story>
+    <div class="stories-container">
+        <div class="stories-grid">
+            <div class="story-row">
+                <div class="story-header">
+                    <br>
+                    <h4>Cursed Treasure 1</h4>
+                    <div class="parallax"></div>
+                </div>
+                <br>
+                <div class="buttons-grid">
+                    <div class="row-button">
+                        <a href="../stories/cursed-treasure-one.html">
+                            <button type="button" class="btn btn-info">Read Cursed Treasure 1</button>
+                        </a>
+                    </div>
+                    <div class="row-button">
+                        <div class="dropdown">
+                            <button class="btn btn-info dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                              Download
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                              <li><a class="dropdown-item" href="#">Coming Soon</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="story-row">
+                <div class="story-header">
+                    <br>
+                    <h4>Cursed Treasure 2</h4>
+                    <div class="parallax-two"></div>
+                </div>
+                <br>
+                <div class="buttons-grid">
+                    <div class="row-button">
+                        <a href="../stories/cursed-treasure-two.html">
+                            <button type="button" class="btn btn-info">Read Cursed Treasure 2</button>
+                        </a>
+                    </div>
+                    <div class="row-button">
+                        <div class="dropdown">
+                            <button class="btn btn-info dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                              Download
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                              <li><a class="dropdown-item" href="#">Coming Soon</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer-con></footer-con>
+    <script src="../js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
